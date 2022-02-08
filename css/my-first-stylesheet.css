@@ -1,0 +1,152 @@
+/*This code sets the colours and shape of the main box with all the text in it.*/
+body {
+background-color: beige ;
+border: 2px solid olive;
+
+font-family: Garamond ;
+
+margin-top: 20px;
+margin-left: auto ;
+margin-right: auto ;
+max-width: 1024px ;
+min-width: 256px ;
+
+}
+
+article {
+	padding-top: 8px ;
+	padding-bottom: 24px ;
+	padding-left: 24px ;
+	padding-right: 24px ; 	
+}
+
+header{
+	font-family: Trattatello;
+	font-size: 80px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+article h1 {
+	font-family: Garamond;
+	font-size: 35px;
+	margin: 0px;
+}
+
+div.frontpage {
+	display: flex;
+	justify-content: center;
+}
+
+/*this code sets the size of images. it also rounds their corners using border-radius.*/
+
+img.small {
+	float: left;
+	width: 20%;
+	margin-bottom: 24 px;
+	margin-right: 10px;
+	border-radius: 10px;
+}
+
+img.medium {
+	width: 50%;
+	border-radius: 10px;
+}
+
+img.large {
+	width:100%;
+	border-radius: 10px;
+}
+
+
+/*This code for div.frontpage and h2.new determines the placement of the items on the front page.*/
+div.frontpage {
+	display: flex; 
+	justify-content: center;
+	text-align: center;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+h2.new {
+	font-family: Trattatello;
+	font-size: 35px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	margin-bottom: 5px;
+}
+
+section.frontpage {
+	display: inline;
+	width: 100%;
+}
+
+/*This code is for sections.*/
+
+section {
+	background-color: beige; 
+	margin-bottom: 20px;
+	min-height: 250px;
+	padding-right: 24px;
+	padding-left: 24px;
+}
+
+
+/*This code eliminates the bullets from lists within the body section of the website.*/
+body ul {
+	list-style-type: none; 
+}
+
+/*This code sets the background outside the body with the text. In heraldry, it would be the undermost layer. */
+html {
+	
+	background-image: url("https://www.wallpaperstogo.com/images/product/large/201416.jpg");
+	
+}
+
+
+/*This code determines the appearance of the Navigator bar at the top of the page.*/
+nav ul {
+	list-style-type: none ;
+	background-color: olive ;
+	border: solid olive;
+	border-radius: 0px ;
+	font-family: Garamond ;
+	font-weight: bold ;
+	font-size: 20px;
+	padding: 10px ;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	margin-top: 5px;
+}
+
+
+nav ul li {
+	display: inline ;
+	border-right: 2px solid #111111 ;
+	padding-right: 10px ;
+	padding-left: 5px ;
+	border-color: beige;
+}
+
+nav ul li:last-child {
+	border-right: none ;
+}
+
+nav ul li a {
+	text-decoration: none ;
+	color: beige ;
+}
+/*This code makes the colour of the header link change when you are on that page*/
+nav li.selected {
+	color:pink;
+}
+
+
+/*This code is a nonsense experiment for the footers with quotations at the bottom of pages.*/
+p.copyright {
+	font-size: 12px;
+
+}
