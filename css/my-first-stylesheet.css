@@ -54,32 +54,46 @@ img.medium {
 }
 
 img.large {
-	width:100%;
+	height:200pt;
 	border-radius: 10px;
 }
 
 
-/*This code for div.frontpage and h2.new determines the placement of the items on the front page.*/
-div.frontpage {
-	display: flex; 
-	justify-content: center;
-	text-align: center;
-	padding-right: 0px;
-	padding-left: 0px;
-	margin-left: 0px;
-}
+/*This code for h2.new determines the font and size of the captions and footers of the pics on the front page.*/
 
 h2.new {
 	font-family: cursive;
-	font-size: 35px;
+	font-size: 30px;
 	padding-top: 10px;
 	padding-bottom: 0px;
 	margin-bottom: 5px;
 }
 
-section.frontpage {
-	display: inline;
-	width: 100%;
+h3.footer {
+	font-family:Garamond, Palatino;
+	font-size: 20px;
+	padding-top: 0px;
+	padding-bottom:0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+/*this code is for the grid on the front page with the new pattern, pattern of the month, and new article*/
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: beige;
+  padding: 10px;
+  row-gap: 2px;
+  align-items: bottom;
+}
+.grid-item {
+  padding: 0px;
+  text-align: center;
+
+/*  vertical-align: center;
+*//*  background-color: yellow;
+*/  
 }
 
 /*This code is for sections.*/
