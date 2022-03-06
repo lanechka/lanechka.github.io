@@ -60,7 +60,7 @@ img.large {
 }
 
 
-/*This code for h2.new determines the font and size of the captions and footers of the pics on the front page.*/
+/*This code for h2.new and h.3footer determines the font and size of the captions and footers of the pics on the front page.*/
 
 h2.new {
 	font-family: cursive;
@@ -69,6 +69,15 @@ h2.new {
 	padding-bottom: 0px;
 	margin-bottom: 5px;
 	text-align: center;
+}
+
+h3.footer {
+	font-family:Garamond, Palatino;
+	font-size: 20px;
+	padding-top: 0px;
+	padding-bottom:0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
 }
 
 
