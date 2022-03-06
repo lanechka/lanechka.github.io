@@ -36,6 +36,7 @@ article h1 {
 div.frontpage {
 	display: flex;
 	justify-content: center;
+	text-align:center;
 }
 
 /*this code sets the size of images. it also rounds their corners using border-radius.*/
@@ -67,16 +68,10 @@ h2.new {
 	padding-top: 10px;
 	padding-bottom: 0px;
 	margin-bottom: 5px;
+	text-align: center;
 }
 
-h3.footer {
-	font-family:Garamond, Palatino;
-	font-size: 20px;
-	padding-top: 0px;
-	padding-bottom:0px;
-	margin-bottom: 0px;
-	margin-top: 0px;
-}
+
 
 /*this code is for the grid on the front page with the new pattern, pattern of the month, and new article*/
 .grid-container {
