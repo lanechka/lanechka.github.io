@@ -28,7 +28,7 @@ header{
 }
 
 article h1 {
-	font-family: Garamond;
+	font-family: Garamond, Palatino;
 	font-size: 35px;
 	margin: 0px;
 }
@@ -130,7 +130,7 @@ nav ul {
 	background-color: olive ;
 	border: solid olive;
 	border-radius: 0px ;
-	font-family: Garamond ;
+	font-family: Garamond, Palatino ;
 	font-weight: bold ;
 	font-size: 20px;
 	padding: 10px ;
