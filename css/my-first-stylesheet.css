@@ -116,6 +116,12 @@ body ul {
 	list-style-type: none; 
 }
 
+/*This code sets the background outside the body with the text. In heraldry, it would be the undermost layer. */
+html {
+	
+	background-color: snow;
+	
+}
 
 
 /*This code determines the appearance of the Navigator bar at the top of the page.*/
