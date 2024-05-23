@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Palatino;
+  color: #2C2C2C;
+  padding: 10px;
+  background: beige;
+}
+
+/* Header/Blog Title */
+.header {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+  background: beige;
+}
+
+.header h1 {
+  font-size: 2.5em;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #bb3385;
+  border-radius: 8px;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #bb3385;
+  color: black;
+}
+
+
+/* This code arranges the pictures in a grid format aka gallery. */
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 2px solid #bb3385;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 5px;
+  text-align: center;
+  font-size: 1em;
+}
+
+div.topdesc {
+  padding: 5px;
+  text-align: center;
+  font-style: italic;
+  font-size: 1.5em;
+}
+
+div.footer {
+    padding: 5px;
+    text-align: left;
+    font-size: 0.75em}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 10px 10px;
+  float: left;
+  width: 25%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+
+<div class="header">
+  <h1>Lanja Khon-Engheim</h1>
+</div>
+
+<div class="topnav">
+  <a href="Home.html">Home</a>
+  <a href="About.html">About</a>
+  <a href="Knit.html">Knit</a>
+  <a href="War.html">War</a>
+  <a href="MiscArticles.html">More</a>
+  
+</div>
+
+
+<h2>Articles about World War I</h2>
+
+<p>I write primarily, but not exclusively, about the German and Norwegian experience during World War I (1914-1918).</p>
+
+<p>Click on a thumbnail to read the article.</p>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://jaggedlines.substack.com/p/how-dandelions-saved-norway-in-world">
+      <img src="images/dandelion.jpg">
+    </a>
+    <div class="desc">How Dandelions Saved Norway in 1917</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://jaggedlines.substack.com/p/the-hidden-history-of-norways-pow-22-07-13">
+    <img src="images/krigsfanger.jpg">
+    </a>
+    <div class="desc">The Hidden History of Norway's POWs</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://jaggedlines.substack.com/p/how-to-knit-a-perfect-sock-652d6d089e0b">
+      <img src="images/redcrosssocks.jpg">
+    </a>
+    <div class="desc">How to Knit a Perfect Sock for a Soldier</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://jaggedlines.substack.com/p/robber-barons-no-rubber-barons">
+      <img src="images/tires.jpg">
+    </a>
+    <div class="desc">Wartime Rubber Barons of Scandinavia</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://jaggedlines.substack.com/p/what-did-world-war-i-sound-like-cfa0a455844c">
+      <img src="images/beethoven.jpg">
+    </a>
+    <div class="desc">What Did the War Sound Like?</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://jaggedlines.substack.com/p/the-rise-and-fall-of-zeppelin-l20">
+      <img src="images/zeppelin.jpg">
+    </a>
+    <div class="desc">The Rise & Fall of Zeppelin L20</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://jaggedlines.substack.com/p/the-curious-case-of-the-crucified-canadian-cfa72da1b733">
+      <img src="images/crucified.jpg">
+    </a>
+    <div class="desc">The Myth of the Crucified Canadian</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://jaggedlines.substack.com/p/strange-sock-stories-from-world-war-i-cf600fab6237">
+      <img src="images/grandma.jpg">
+    </a>
+    <div class="desc">Not Your Great-Grandmother's Knitting</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://www.ravelry.com/bundles/among-the-sir">
+      <img src="images/hawaii.jpg">
+    </a>
+    <div class="desc">Who was the First Soldier from Hawaii to Die in WWI?</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://jaggedlines.substack.com/p/germanys-dragon-riders-of-the-great">
+      <img src="images/dragons.jpg">
+    </a>
+    <div class="desc">Dragon Riders of the Great War</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://jaggedlines.substack.com/p/mein-innigstgeliebter-sohn-who-were-the-men-of-the-hessian-death-notices-70b4ec920e72">
+      <img src="images/germans.jpg">
+    </a>
+    <div class="desc">Who Were the Hun?</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://jaggedlines.substack.com/p/germanys-knitting-battalions-of-the-great-war-13c1e68c20d1">
+      <img src="images/stricken.jpg">
+    </a>
+    <div class="desc">Germany's Knitting Battalions</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div class="footer">
+© Lanja Khon-Engheim, 2024
+</div>
+
+</body>
+</html>
+
+

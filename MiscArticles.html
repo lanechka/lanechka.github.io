@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Palatino;
+  color: #2C2C2C;
+  padding: 10px;
+  background: beige;
+}
+
+/* Header/Blog Title */
+.header {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+  background: beige;
+}
+
+.header h1 {
+  font-size: 2.5em;
+ 
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #bb3385;
+  border-radius: 8px;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #bb3385;
+  color: black;
+}
+
+
+/* This code arranges the pictures in a grid format aka gallery. */
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 2px solid #bb3385;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 5px;
+  text-align: center;
+  font-size: 1em;
+}
+
+div.topdesc {
+  padding: 5px;
+  text-align: center;
+  font-style: italic;
+  font-size: 1.5em;
+}
+
+div.footer {
+    padding: 5px;
+    text-align: left;
+    font-size: 0.75em}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* This code auto-resizes and auto-formats based on screen size aka responsive design. */
+
+.responsive {
+  padding: 10px 10px;
+  float: left;
+  width: 25%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+/* This code makes sure the pictures stay contained within the boxes and don't overflow. */
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Lanja Khon-Engheim</h1>
+</div>
+
+<div class="topnav">
+  <a href="Home.html">Home</a>
+  <a href="About.html">About</a>
+  <a href="Knit.html">Knit</a>
+  <a href="War.html">War</a>
+  <a href="MiscArticles.html">More</a>
+  
+</div>
+
+
+<h2>Miscellaneous Articles</h2>
+
+<p>My thoughts about everything from perfectionism to immigrant integration.</p>
+
+<p>Click on a thumbnail to read the article.</p>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://jaggedlines.substack.com/p/the-perils-of-perfectionism">
+      <img src="images/perfectionism.jpg">
+    </a>
+    <div class="desc">The Perils of Perfectionism</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://jaggedlines.substack.com/p/necessity-will-teach-a-naked-woman">
+      <img src="images/greteken.jpg">
+    </a>
+    <div class="desc">Knitting in Norway, WWII-Style</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://jaggedlines.substack.com/p/should-prince-william-take-up-knitting-48e7a1151094">
+      <img src="images/william2.jpg">
+    </a>
+    <div class="desc">Should Prince William Learn to Knit?</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://jaggedlines.substack.com/p/disposal-of-battlefield-dead-in-middle-22-07-13">
+      <img src="images/dead.jpg">
+    </a>
+    <div class="desc">The War Dead of Middle Earth</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://jaggedlines.substack.com/p/fau-som-integreringsverkty">
+      <img src="images/skole.jpg">
+    </a>
+    <div class="desc">FAU som integreringsverktøy</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://jaggedlines.substack.com/p/how-heraldry-helped-me-learn-html-ab520ff9f910">
+      <img src="images/heraldry.jpg">
+    </a>
+    <div class="desc">How Heraldry Helped Me Learn HTML</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://jaggedlines.substack.com/p/to-live-to-talk-to-have-84443a353817">
+      <img src="images/grandpa.jpg">
+    </a>
+    <div class="desc">To Live, to Talk, to Have</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://jaggedlines.substack.com/p/should-prince-harry-become-king-of-canada-bdf64636687a">
+      <img src="images/harry.jpg">
+    </a>
+    <div class="desc">Should Prince Harry Become King of Canada?</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://jaggedlines.substack.com/p/a-vre-amerikaner-i-norge-er-vanskelig">
+      <img src="images/norge.jpg">
+    </a>
+    <div class="desc">Durek + Kultursjokk = Sant </div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://jaggedlines.substack.com/p/sutterlin-soldiers-postcards-and-staying-connected-in-the-pandemic-dafc52c9c5cd">
+      <img src="images/feldpost.jpg">
+    </a>
+    <div class="desc"><em>Kurrentschrift</em> & Covid Correspondence</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://jaggedlines.substack.com/p/dyrtidens-mat-serveres-det-snart">
+      <img src="images/dyrtiden.jpg">
+    </a>
+    <div class="desc">Dyrtidens mat</div>
+  </div>
+</div>
+
+
